@@ -28,9 +28,17 @@ Library
 Централен клас за управление на библиотеката. Съдържа списъци с книги (books), членове (members) и заеми (loans). Основните методи са addBook() и addMember(), hasBook() за проверка на наличието на книга, isBookAvailable() за проверка дали е свободна, loanBook() за създаване на заем, returnBook() за връщане на книга, findByAuthor() за извличане на книги по автор и to_string() за обобщена информация за библиотеката.
 
 
-Примерен Изход: Books: 2, Members: 1, Loans: 0
+Примерен Изход:
+
+Books: 2, Members: 1, Loans: 0
+
 Loan created.
+
 Available ISBN-001? false
+
+
 Available ISBN-001? true
+
 Pod igoto, Ivan Vazov (1850), 1894, 25.500000, ISBN-001
+
 Nema zemya, Ivan Vazov (1850), 1900, 18.900000, ISBN-002
